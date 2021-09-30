@@ -1,0 +1,27 @@
+{
+  "printWidth": 120,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "semi": true,
+  "overrides": [
+    {
+      "files": ["*.js","*.jsx"],
+      "options": {
+        "parser": "javascript"
+      }
+    },
+    {
+      "files": ["*.js","*.tsx"],
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": ["*.json", "*.jsonc", ".babelrc", ".prettierrc",".stylelintrc",".eslintrc"],
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
