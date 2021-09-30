@@ -1,8 +1,11 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
+
+import Test from '@components/test/test';
+
 import styles from '@styles/Home.module.scss';
-import Test from '@components/test/Test';
+
+import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (

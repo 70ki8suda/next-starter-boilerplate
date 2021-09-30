@@ -1,4 +1,4 @@
-@import '@variables';
+@use '@variables' as *;
 
 .test {
   font-size: 30px;
